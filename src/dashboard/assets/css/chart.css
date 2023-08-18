@@ -1,0 +1,82 @@
+
+.Chart22{
+    background-color: #303030;
+}
+.BarChart{
+color: white !important;
+}
+
+.ChartHeader{
+    display: flex;
+    border-bottom: 1px solid white;
+    width: 100%;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    padding: 13px 15px;
+}
+.ChartHeadDetailHeading{
+    color: black;
+    font-size: 12px;
+}
+.ChartHeader .chartSelectTag{
+    border: 1px solid lightgray;
+    padding: 4px 11px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+.ChartHeader .chartSelectTag:focus{
+    outline: none;
+}
+
+.TableCont{
+    margin: 0  !important;
+    padding: 0;
+}
+.ChartRow{
+    background-color: #303030;
+
+}
+.ChartCont{
+    overflow-x:scroll ;
+}
+
+
+/* Track styles */
+.ChartCont::-webkit-scrollbar {
+    height: 8px;
+}
+
+/* Thumb styles */
+.ChartCont::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    border-radius: 4px;
+}
+
+/* Track styles when the thumb is being hovered */
+.ChartCont::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+}
+
+/* Track styles when the scrollbar is in its inactive state */
+.ChartCont::-webkit-scrollbar-track {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1199px) {
+    .BarChart{
+        width: 80%  !important;
+    }
+}

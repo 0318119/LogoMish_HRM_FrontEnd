@@ -1,0 +1,44 @@
+
+.tabsSectionDashboard{
+    border: 1px solid lightgray;
+    margin-top: 5px;
+}
+.tab-list{
+    display: flex !important;
+    flex-direction: row !important;
+    /* background-color: #303030; */
+    padding: 5px;
+    background: white;
+}
+.tab-list li{
+    list-style: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 1px 2px;
+    border-top: none !important;
+    border-radius: 5%;
+    color: black;
+    font-size: 12px;
+}
+ul.tab-list{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-list li:hover{
+    background-color: rgba(167, 165, 162, 0.137);
+}
+ul.tab-list li span{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.tab-content{
+    padding: 15px;
+}
+
+@media screen and (max-width:992px) {
+    .tab-list li{
+    padding: 10px 13px;
+    }
+}

@@ -1,0 +1,29 @@
+.MasterData_LeavesHeader {
+    background-color: white;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 4px 4px 0px 0px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.MasterData_LeavesContainer {
+    box-shadow: 2px 1px 6px -2px black;
+    padding: 0px 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.MasterChecklist label {
+    color: black;
+    font-size: 13px;
+}
+
+.MasterChecklist input {
+    font-size: 13px;
+}
+
+.masterlistpara {
+    color: black;
+    font-size: 13px;
+}
